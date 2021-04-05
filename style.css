@@ -1,9 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body {
-	background-color: black;
+	background-color: #000000;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 }
 p.heading {
 	font-size: large;
@@ -17,10 +21,10 @@ div.topnav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: rgb(3, 90, 90);
+	background-color: #19647E;
 	top: 0;
 	width: 100%;
-	height: 6vh;
+	height: 7vh;
 	position: fixed;
 }
 div.topnav ul li {
@@ -30,14 +34,14 @@ div.topnav ul li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 16px 24px;
 	text-decoration: none;
 }
 div.topnav ul li a:hover {
-	background-color: black;
+	background-color: #0B0014;
 }
 div.topnav ul li a.active {
-	background-color: black;
+	background-color: #0B0014;
 }
 
 /*intro*/
@@ -45,24 +49,28 @@ div.topnav ul li a.active {
 div.intro {
 	background-color: rgb(0, 0, 0);
 	text-align: center;
-	height: 45vh;
-	margin-top: 25%;
+	height: 50vh;
+	padding: 5%;
+	padding-top: 23%;
 }
 div.intro p.head {
-	font-size: xx-large;
+	font-size: 40px;
 	line-height: 0px;
+	color: #fffff;
 }
 div.intro p.subhead {
-	font-size: small;
-	color: crimson;
+	font-size: 18px;
+	color: #D6A2AD;
 	line-height: 0px;
+	margin-top: 5%;
 }
 
 /*projects*/
 div.projects {
-	background-color: rgb(3, 90, 90);
+	background-color: #19647E;
 	text-align: center;
 	height: 100vh;
+	padding: 5%;
 }
 div.card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -89,28 +97,35 @@ img.pro {
 	height: 260px;
 }
 button {
-	background-color: seagreen;
-	border: seagreen;
+	background-color: #D6A2AD;
+	border: #D6A2AD;
 	height: 30px;
 	width: 120px;
 }
 
 /*survey form*/
-
+p.heading1{
+	text-align: center;
+	width: 40%;
+}
 div.form {
-	margin-left: 35%;
+	padding-left: 35%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 input.long {
 	width: 450px;
+	padding: 2px;
 }
 select.long {
 	width: 450px;
+	padding: 2px;
 }
 input[type="submit"] {
-	background-color: #4caf50;
+	background-color: #D6A2AD;
 	border: none;
 	width: 456px;
-	color: white;
+	color: black;
 	padding: 8px 16px;
 	text-decoration: none;
 	margin: 4px 2px;
@@ -118,28 +133,38 @@ input[type="submit"] {
 }
 textarea {
 	width: 450px;
+	padding: 2px;
 }
 
 /*end links*/
 div.link {
 	text-align: center;
-	background-color: rgb(0, 90, 90);
-	padding-top: 200px;
-	height: 72vh;
+	background-color: #19647E;
+	height: 48vh;
+	padding-top: 5%;
+	margin-bottom: 0%;
 }
 
 p.big {
-	font-size: xx-large;
+	font-size: 32px;
 	line-height: 0px;
+	padding-top: 5px;
+	color: #ffffff;
+	font-weight: bolder;
 }
 p.small {
-	font-size: x-small;
+	font-size: 14px;
 	line-height: 0px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: #D6A2AD;
+	font-weight: bold;
 }
 a.link {
 	text-decoration: none;
-	color: white;
-	padding: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+	padding: 12px;
 }
 
 span.fl {
